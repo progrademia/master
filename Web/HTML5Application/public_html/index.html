@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hola Mundo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+                               
+            /*
+            
+            *{
+                color: purple;
+                background: #0f0;
+            }
+            
+            h1 {
+                color:blue !important;
+                font-size: 3em;
+            }
+            
+            p {
+                color:red;
+                font-size: 1em;
+            }
+            */
+            
+            p{
+                color:green;
+            }
+            
+            #parrafo {
+                color: red;
+            }
+            
+            .claseparrafo{
+                color:yellow;
+            }
+            
+            #camposFormulario{
+                border: 10px;
+                border-color: red;
+            }
+            
+            h1{
+                text-align: right;
+            }
+            
+            
+            
+            
+        </style>
+        <link rel="stylesheet" href="pruebacss.css">
+        
+    </head>
+    <body>
+        <h1>Hola mundo del HTML5</h1>
+        <p>Esto es un párrafo de mi Hola Mundo</p>
+        <!-- Esto es un comentaario y no  se ve en la web -->
+        <header>cabecera</header>
+        <nav>navegador</nav>
+        <aside>columnnna</aside>
+        <section>
+ 
+            <form name="miFormulario" action="index.html" method="GET" >
+                <fieldset>
+                    
+                    <div id="camposFormulario">
+                    <p id="parrafo"><label for="nombre">Nombre:</label>
+                        <input type="text"   required="required" maxlength="5" placeholder="Pon tu nombre aquí" id="nombre" name="nombreI" list="sugerencias">
+                        <datalist id="sugerencias">
+                            <option value="Emilio"></option>
+                            <option value="Jose"></option>
+                            <option value="Carlos"></option>
+                        </datalist>
+                    </p>
+                    <p class="claseparrafo"><label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    </p>
+                    <p><label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                    </p>
+                    <p class="claseparrafo">
+                        <label for="comentario">Teléfono:</label>
+                        <textarea rows="15" cols="50" name="comentario" id="comentario">
+                        </textarea>
+                    </p>
+                    <p>
+                        <label for="so">Sistema operativo</label> <br/>
+                        <select id="so" name="so" multiple="multiple">
+                          <option value="" >- selecciona -</option>
+                          <option value="windows">Windows</option>
+                          <option value="mac" selected="selected">Mac</option>
+                          <option value="linux">Linux</option>
+                          <option value="otro">Otro</option>
+                        </select>
+                    </p>
+                    
+                    </div>
+                    
+                    <p>
+                        <input type="submit" name="submit" value="Enviar">
+                    </p>
+                </fieldset>
+                <!--
+                text
+                tel
+                url
+                email
+                password
+                date
+                time
+                number
+                range
+                color
+                checkbox
+                file
+                search
+                submit
+                reset
+                button
+                -->
+            </form>
+            
+            <header>cabecera articulo</header>
+            <article>mi aaarticuloo</article>
+            <footer>mi pie</footer>
+             <header>cabecera articulo</header>
+            <article>mi aaarticuloo</article>
+            <footer>mi pie</footer>
+
+        </section>
+        
+        <footer>pie de pagina</footer>
+            
+    </body>
+</html>
