@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="codigo.js"></script>
+    </head>
+    <body>
+        <h1>Calculadora de viaje</h1>
+        <ul id="listaPersona" >
+            <li> Nombre: <input type="text" name="nombre" placeholder="Introduce tu nombre" />
+                 Edad: <input type="text" name="edad" size="2" />
+            </li>            
+        </ul>
+        <a href="#" id="addViajero">[+] Añadir más</a>
+        <br/>
+        Total a cobrar: <input type="text" id="totalCobrar" size="5" />
+        Viaje: <input type="text" id="viaje" size="2" value="10">%
+        <br/>
+        <input id="botonCalculadora" type="button" value="Calcular"/>
+        <div id="salida">No tiene nada</div>
+    </body>
+</html>
