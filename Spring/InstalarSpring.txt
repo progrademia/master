@@ -1,0 +1,42 @@
+
+### Tener en cuenta que las rutas y los nombres de los archivos varian según la versión de Spring. Cambiar la ruta a vuestra versión. ###
+
+
+# Mover archivo
+cd Descargas
+ls -l
+sudo mv spring-tool-suite-3.8.1.RELEASE-e4.6-linux-gtk-x86_64.tar.gz /opt
+
+
+
+# Descomprimir
+cd /opt
+ls -l
+sudo tar zxvf spring-tool-suite-3.8.1.RELEASE-e4.6-linux-gtk-x86_64.tar.gz
+
+
+# Crear enlazador (acceso directo)
+sudo ln -s /opt/sts-4.2.1.RELEASE/SpringToolSuite4 /usr/local/bin/SpringToolSuite4
+
+
+# Añadirlo a la interfaz de usuario
+sudo gedit /usr/share/applications/stsLauncher.desktop
+
+
+# Editar stsLauncher.desktop con gedit
+[Desktop Entry]
+Name=Spring Tool Suite
+Comment=Spring Tool Suite 3.8.1
+Exec=/opt/sts-4.2.1.RELEASE/SpringToolSuite4
+Icon=/opt/sts-4.2.1.RELEASE/icon.xpm
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Development;IDE;Java;
+
+
+
+
+
+
+
