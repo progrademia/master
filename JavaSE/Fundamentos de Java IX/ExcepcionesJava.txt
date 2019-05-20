@@ -1,0 +1,35 @@
+Excepciones
+
+- Situaciones inesperadas
+- Crea objeto excepción
+- Arroja la excepción
+
+Varios tipos:
+
+java.lang.ArrayIndexOutOfBoundsException
+- Intenta acceder a índice no existe
+
+java.lang.ClassCastException
+- Intenta convertir un objeto a un tipo que no se puede
+
+java.lang.NullPointerException
+- Objeo no instanciado.
+########################
+
+Tipos de clases Throwable:
+
+- Error: error externo no recuperable.
+- RuntimeException: fallo en la programación.
+- Exception: error recuperable.
+try/catch
+
+
+
+
+
+
+
+
+
+
+
