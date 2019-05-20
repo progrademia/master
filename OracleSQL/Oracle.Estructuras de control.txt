@@ -1,0 +1,35 @@
+-- Estructuras de control 
+-- Case
+set SERVEROUTPUT ON;
+set verify off;
+
+declare
+    grado char(1) := upper('&grado');
+    valoracion varchar2(20);
+begin
+
+    valoracion := case grado
+        when 'A' then 'Genial'
+        when 'B' then 'Muy bueno'
+        when 'C' then 'Bueno'
+        else 'No hay grado'
+    end;
+dbms_output.put_line('Grado: '|| grado|| 'Valoración: ' || valoracion);
+end;
+
+
+-- Case de búsqueda
+set verify off;
+set SERVEROUTPUT ON;
+declare
+    grado char(1) := upper('&grado');
+    valoracion VARCHAR2(20);
+begin
+    valoracion := case
+        when grado = 'A' then 'Excellente'
+        when grado in ('B', 'C') then 'Buena'
+        else 'Sin grado'
+    end;
+    dbms_output.put_line ('Grado: ' || grado || 'Valoración: ' || 
+    valoracion);
+end;
