@@ -1,0 +1,7 @@
+.ocultarLista{
+	display: none;
+}
+
+.seleccionado{
+	font-weight: bold;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilos.css">
+	
+</head>
+<body>
+	<div class="container">
+		<div class="input-group my-3">
+			<input type="text" class="form-control miTexto"/>
+			<div class="input-group-append">
+				<button id="botonFinal" class="btn btn-primary mr-1">Añadir al final</button>
+				<button id="botonPrincipio" class="btn btn-primary mr-1" >Añadir al principio</button>
+				<button id="botonEliminar" class="btn btn-danger">Eliminar</button>
+			</div>
+		</div>
+		<div class="jumbotron">
+			<h1 class="display-4">Listado</h1>
+		</div>
+		<ul class="list-group lista mb-3">
+			<li id="elemento1" class="list-group-item">1.CSS3</li>
+			<li id="elemento2" class="list-group-item">2.JavaScript</li>
+		</ul>
+		<button id="mostrarOcultar" class="btn btn-info">Mostar/Ocultar lista</button><button id="eliminarSeleccionados" class="btn btn-danger">Eliminar seleccionados</button>
+
+	</div>
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="micodigo.js"></script>
+
+</body>
+</html>
