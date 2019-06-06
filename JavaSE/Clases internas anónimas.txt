@@ -1,0 +1,9 @@
+Clases internas anónimas.
+
+- Definidas en el lugar, en vez de en un archivo aparte.
+- Aumentar la encapsulación.
+- Tenemos todo el código en el mismo lugar.
+- Interfaces de único método: Interfaz Funcional.
+- Interfaz StringAnalyzer.
+
+
