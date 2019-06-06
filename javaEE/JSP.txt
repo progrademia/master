@@ -1,0 +1,42 @@
+- Dentro del modelo MVC vienen a ser las vistas.
+- Java Server Pages
+- Contenido dinámico.
+
+Comentarios <%-- Hola, esto es un comentario --%>
+
+Declaraciones  <%!   %>
+
+Scriplet  <%    %>
+
+Expresiones <=  >
+
+Directivas <%@   %>
+
+Ejemplo de script: <% String nombre = "Juan"; %>
+
+request
+response
+session
+config
+out
+application
+pageContext
+exception
+page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
