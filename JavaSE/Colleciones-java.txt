@@ -1,0 +1,69 @@
+COLECCIONES:
+
+- Una colección es un objeto que administra un grupo de objetos.
+- Los objetos de la colección se llaman elementos.
+- No se permiten primitivos en una colección.
+- Varios tipos de colecciones implementan datos comunes. Estructuras: pila, cola, array dinámico, hash.
+
+Interfaz       Implementación
+
+List           ArrayList, LinkedList
+Set            TreeSet, HashSet, LinkedHashSet
+Map            HashMap,HashTable, TreeMap
+Deque          ArrayDeque
+
+INTERFAZ LIST
+
+- Colección ordenada de elementos.
+- Obtenemos un elemento según su índice.
+- Obtener el tamaño de la lista.
+- La lista permite elementos duplicados.
+- Podemos eliminar un elemento basándonos en su índice.
+- Podemos sobreescribir un elemento basándonos en su índice.
+
+
+ARRAYLIST
+
+- Implementación del interfaz List.
+- Crece automáticamente si los elementos exceden del tamaño inicial.
+- Se pueden insertar elementos en función de su índice.
+
+UNBOXING Y AUTOBOXING
+
+- Permite realizar asignaciones sin síntaxis de conversión formal.
+- Cuidado con los bucles, coste de rendimiento.
+
+INTERFAZ SET
+
+- Contiene elementos únicos.
+- No tiene índice.
+- No permite duplicados.
+- TreeSet provee implementación ordenada.
+
+INTERFAZ MAP
+
+- Coleccióin que almacena pares clave-valor.
+- Key/clave: identifica a cada elemento de la colección con un identificador único.
+- Value/valor: valor almacenado para esa key.
+
+INTERFAZ DECK
+
+- Puede se usada como pila o como cola.
+- Provee operaciones FIFO(first in, first out):
+add(e) y remove(e).
+- Provee operaciones LIFO(last in, first out):
+push(e) y pop(e).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
