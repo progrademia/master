@@ -1,0 +1,12 @@
+
+Expresiones Lambda.
+
+(t, s) -> t.conrains(s)
+
+public class AnalizadorContenido implements AnalizadorCadena {
+	public boolean analizador(String objetivo, String buscarStr) {
+		return objetivo.contains(buscarStr);
+	}
+}
+
+
